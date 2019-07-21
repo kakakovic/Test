@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class No1051 {
+public class NO1051 {
     public int heightChecker(int[] heights) {
         int[] copy = Arrays.copyOf(heights, heights.length);
         int count = 0;
