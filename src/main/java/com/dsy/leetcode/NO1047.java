@@ -1,4 +1,4 @@
-package leetcode;
+package main.java.com.dsy.leetcode;
 
 import java.util.Stack;
 

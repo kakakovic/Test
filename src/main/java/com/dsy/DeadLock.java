@@ -1,3 +1,5 @@
+package main.java.com.dsy;
+
 public class DeadLock {
 
     private static Object objA = new Object();
