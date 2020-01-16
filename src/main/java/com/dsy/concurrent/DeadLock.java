@@ -1,4 +1,4 @@
-package main.java.com.dsy;
+package com.dsy.concurrent;
 
 public class DeadLock {
 
