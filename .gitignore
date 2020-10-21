@@ -4,8 +4,6 @@ out
 
 *.iml
 
-src/main/java/com/dsy/Test.java
 src/main/java/com/dsy/Main.java
-src/test/java/com/dsy/MainTest.java
 
 target/
