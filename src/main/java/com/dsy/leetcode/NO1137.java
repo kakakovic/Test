@@ -1,4 +1,4 @@
-package leetcode;
+package com.dsy.leetcode;
 
 public class NO1137 {
     private int[] dynamic = new int[38];
