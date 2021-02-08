@@ -13,8 +13,9 @@ public class G {
     private F f;
 
     @PostConstruct
-    public void init(){
+    public final void init(){
         f.init();
         System.out.println(3);
+        f.f();
     }
 }

@@ -1,4 +1,4 @@
-package main.java.com.dsy.leetcode;
+package com.dsy.leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
