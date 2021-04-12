@@ -7,6 +7,7 @@ public class NO5 {
     }
 
     public String longestPalindrome(String s) {
+        //如果dp的建立不满足最优子结构，证明方式是错误的
         //dp[i][j] 表示s的第i个字符到第j个字符组成的子字符串是否是回文的
         boolean[][] dp = new boolean[s.length()][s.length()];
 
