@@ -1,11 +1,6 @@
 package com.dsy.leetcode;
 
 public class NO10 {
-    public static void main(String[] args) {
-        NO10 no10 = new NO10();
-        System.out.println(no10.isMatch("aa", "a*"));
-    }
-
     public boolean isMatch(String s, String p) {
         int m = s.length();
         int n = p.length();
@@ -15,8 +10,8 @@ public class NO10 {
         for (int i = 0; i <= m; ++i) {
             for (int j = 1; j <= n; ++j) {
                 if (p.charAt(j - 1) == '*') {
-
-                     if (matches(s, p, i, j - 1)) {
+                    f[i][j] = f[i][j - 2];
+                    if (matches(s, p, i, j - 1)) {
                         f[i][j] = f[i][j] || f[i - 1][j];
                     }
                 } else {
